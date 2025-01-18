@@ -8,83 +8,66 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Indian Return Gifts & Pooja Items</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Indian Return Gifts & Pooja Items</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section id="home" class="banner">
-        <div class="container">
-            <h2>Welcome to Our Store</h2>
-            <p>Your one-stop shop for authentic Indian return gifts and pooja items.</p>
-            <a href="#products" class="btn">Shop Now</a>
-        </div>
+    <section id="hero">
+        <h2>Bring Home Tradition</h2>
+        <p>Explore our collection of handcrafted Indian gifts and pooja essentials.</p>
+        <button onclick="alert('Shop Coming Soon!')">Shop Now</button>
     </section>
 
-    <section id="products" class="products">
-        <div class="container">
-            <h2>Our Products</h2>
-            <div class="product-grid">
-                <div class="product-item">
-                    <img src="images/diya.jpg" alt="Traditional Diyas">
-                    <h3>Traditional Diyas</h3>
-                    <p>Price: $5 each</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <img src="images/pooja-thali.jpg" alt="Pooja Thali">
-                    <h3>Pooja Thali</h3>
-                    <p>Price: $15 each</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product-item">
-                    <img src="images/return-gifts.jpg" alt="Return Gifts">
-                    <h3>Return Gifts</h3>
-                    <p>Price: $10 per set</p>
-                    <button>Add to Cart</button>
-                </div>
-                <!-- Add more products as needed -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/return-gift.jpg" alt="Return Gifts">
+                <h3>Return Gifts</h3>
+                <p>Perfect for weddings, birthdays, and celebrations.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/pooja-items.jpg" alt="Pooja Items">
+                <h3>Pooja Items</h3>
+                <p>Authentic items for all your spiritual needs.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/home-decor.jpg" alt="Home Decor">
+                <h3>Home Decor</h3>
+                <p>Elegant decor to bring an Indian touch to your home.</p>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>We are dedicated to bringing you the finest selection of Indian return gifts and pooja items. Perfect for festivals, weddings, and special occasions.</p>
-        </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are passionate about bringing the richness of Indian culture to your doorstep. Whether it's return gifts for your event or essential pooja items, we ensure quality and tradition in every product.</p>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Indian Return Gifts & Pooja Items. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Indian Return Gifts & Pooja Items. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
